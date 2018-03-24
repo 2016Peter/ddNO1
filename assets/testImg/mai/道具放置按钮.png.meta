@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "66edd119-01d5-4459-b31c-23a7cdf6d25d",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "道具放置按钮": {
+      "ver": "1.0.3",
+      "uuid": "ff44a16e-d3c4-44b3-a88d-445bb9ec309c",
+      "rawTextureUuid": "66edd119-01d5-4459-b31c-23a7cdf6d25d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 166,
+      "height": 200,
+      "rawWidth": 166,
+      "rawHeight": 200,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

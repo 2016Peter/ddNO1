@@ -4498,7 +4498,7 @@
       "__id__": 2
     },
     "component": "xuanze",
-    "handler": "onBtnEnterClicked",
+    "handler": "onBtnXuanguanClicked",
     "customEventData": ""
   },
   {

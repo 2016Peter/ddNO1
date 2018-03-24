@@ -56,7 +56,8 @@ cc.Class({
 
     update(dt) {
 
-        Globals.dz += 0.0005;
+        // Globals.dz += 0.0005;
+        Globals.dz += 0.005;
         if (Globals.dz > 1) {
             Globals.dz = 1;
             this.dazhao_tips(true);
