@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "456984e3-a576-4790-922a-e9fadfcd0931",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "huo_Pot_bg": {
+      "ver": "1.0.3",
+      "uuid": "a2412d06-90e6-4525-a946-5a3b8d1784e1",
+      "rawTextureUuid": "456984e3-a576-4790-922a-e9fadfcd0931",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0.5,
+      "trimX": 1,
+      "trimY": 1,
+      "width": 200,
+      "height": 280,
+      "rawWidth": 202,
+      "rawHeight": 283,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
