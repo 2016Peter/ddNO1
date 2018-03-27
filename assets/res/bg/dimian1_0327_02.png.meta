@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "9ca9949a-f3ff-4419-b7e8-83fb64f27ff7",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "dimian1_0327_02": {
+      "ver": "1.0.3",
+      "uuid": "fc7ada0a-b550-43bb-882c-8a57d6f1ba4f",
+      "rawTextureUuid": "9ca9949a-f3ff-4419-b7e8-83fb64f27ff7",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 1,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1280,
+      "height": 208,
+      "rawWidth": 1280,
+      "rawHeight": 210,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
