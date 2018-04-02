@@ -12,18 +12,22 @@ cc.Class({
     },
 
     onBtnClick: function(event) {
-        if (event.target.name == "shangchen") {
-            cc.vv.uitools.ShowLayer("shangcheng", null, this.node);
-        } else if (event.target.name == "baoxiang") {
-            cc.vv.uitools.ShowLayer("beibao", null, this.node);
-        } else if (event.target.name == "cangku") {
-            cc.vv.uitools.ShowLayer("cangku", null, this.node);
+        if (event.target.name == "ads") {
+            cc.vv.uitools.ShowLayer("Gonggao", null, this.node);
+        } else if (event.target.name == "hecheng") {
+            cc.vv.uitools.ShowLayer("Hecheng", null, this.node);
+        } else if (event.target.name == "beibao") {
+            cc.vv.uitools.ShowLayer("Beibao", null, this.node);
         } else if (event.target.name == "guan") {
-            cc.director.loadScene("game");
-        } else if (event.target.name == "money") {
-            cc.director.loadScene("money");
+            cc.director.loadScene("guanka");
+        } else if (event.target.name == "shangchen") {
+            cc.vv.uitools.ShowLayer("Shangcheng", null, this.node);
         } else if (event.target.name == "set") {
             cc.vv.uitools.ShowLayer("Sounds", null, this.node);
+        } else if (event.target.name == "cengjiu") {
+            cc.vv.uitools.ShowLayer("Chengjiu", null, this.node);
+        } else if (event.target.name == "cangku") {
+            cc.vv.uitools.ShowLayer("Cangku", null, this.node);
         }
     },
 

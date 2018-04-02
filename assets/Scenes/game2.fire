@@ -21,7 +21,7 @@
     "_active": true,
     "_components": [],
     "_prefab": null,
-    "_id": "b98be320-84f2-4b89-b426-cd4842784486",
+    "_id": "2288f6e1-dc81-4372-bc80-962de3753ec8",
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
@@ -82,7 +82,7 @@
       }
     ],
     "_prefab": null,
-    "_id": "5eWq9DFjJGJKhXhx0U6BHd",
+    "_id": "beAIm9LeJEBq6XmZ4fOg3X",
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
@@ -108,8 +108,8 @@
     "_scaleY": 1,
     "_position": {
       "__type__": "cc.Vec2",
-      "x": 360,
-      "y": 640
+      "x": 640,
+      "y": 360
     },
     "_skewX": 0,
     "_skewY": 0,
@@ -138,7 +138,7 @@
       }
     ],
     "_prefab": null,
-    "_id": "6emC/j+81D545/tv9LN/DS",
+    "_id": "94Tq9kcs5KupCS1RcK3Q/a",
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
@@ -190,7 +190,7 @@
       }
     ],
     "_prefab": null,
-    "_id": "6ahNgfoz9E5I+E/IHAAcYG",
+    "_id": "f02AItLrZO6ri0oVoyhXAz",
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
@@ -298,7 +298,7 @@
       }
     ],
     "_prefab": null,
-    "_id": "e9Dtnwd75J0ZL5PsRUwB7Z",
+    "_id": "28/tly5+RIn52sun/z43/v",
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
@@ -350,7 +350,7 @@
       }
     ],
     "_prefab": null,
-    "_id": "7f4bB7bjJCrK/2Nxlec/zg",
+    "_id": "e3uzAWG79HNKgETZsG7dnE",
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
@@ -454,7 +454,7 @@
       }
     ],
     "_prefab": null,
-    "_id": "04VSPUAqFPw5w0YxIpaxMk",
+    "_id": "b6etJs7qJAjL6qKP8Xdx1a",
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
@@ -476,12 +476,12 @@
     },
     "_rotationX": 0,
     "_rotationY": 0,
-    "_scaleX": 0.4,
-    "_scaleY": 0.4,
+    "_scaleX": 0.8,
+    "_scaleY": 0.8,
     "_position": {
       "__type__": "cc.Vec2",
-      "x": -323,
-      "y": -179
+      "x": -322,
+      "y": -175
     },
     "_skewX": 0,
     "_skewY": 0,
@@ -500,11 +500,11 @@
     "_enabled": true,
     "_paused": false,
     "defaultSkin": "",
-    "defaultAnimation": "",
+    "defaultAnimation": "paobu",
     "loop": true,
     "_premultipliedAlpha": true,
     "_N$skeletonData": {
-      "__uuid__": "fbfa0f88-9638-43ac-b044-22f66adacba9"
+      "__uuid__": "4d4d5efb-2c5e-4f1e-a796-6787f89447ce"
     },
     "_N$timeScale": 1,
     "_N$debugSlots": false,
@@ -533,7 +533,7 @@
       }
     ],
     "_prefab": null,
-    "_id": "5ebCttPTRKYJ2FTjlPb27N",
+    "_id": "53YTkIloxFVYpiX13fId22",
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
@@ -559,8 +559,8 @@
     "_scaleY": 1,
     "_position": {
       "__type__": "cc.Vec2",
-      "x": 496,
-      "y": -232
+      "x": 497,
+      "y": -228
     },
     "_skewX": 0,
     "_skewY": 0,
@@ -588,7 +588,7 @@
       }
     ],
     "_prefab": null,
-    "_id": "79ZszTcL5HSpcifKqLmbZE",
+    "_id": "3cXUesNxBKBqsf8GcKPrNt",
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
@@ -704,9 +704,7 @@
   },
   {
     "__type__": "cc.ClickEvent",
-    "target": {
-      "__id__": 2
-    },
+    "target": null,
     "component": "Spineboy",
     "handler": "run",
     "customEventData": ""
@@ -807,9 +805,7 @@
   },
   {
     "__type__": "cc.ClickEvent",
-    "target": {
-      "__id__": 2
-    },
+    "target": null,
     "component": "spineboy",
     "handler": "run",
     "customEventData": ""
@@ -837,7 +833,7 @@
       }
     ],
     "_prefab": null,
-    "_id": "d3OjR3+XpMEoN+DLMLwWlI",
+    "_id": "815YlKzbJCmqTl/LLVYoDz",
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
@@ -863,8 +859,8 @@
     "_scaleY": 1,
     "_position": {
       "__type__": "cc.Vec2",
-      "x": -500,
-      "y": -245
+      "x": -499,
+      "y": -241
     },
     "_skewX": 0,
     "_skewY": 0,
@@ -892,7 +888,7 @@
       }
     ],
     "_prefab": null,
-    "_id": "61F+6Qs2RGPJlJfeSup6Pz",
+    "_id": "eaVACUQFNAE5WGaeiRxs1V",
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
@@ -1008,9 +1004,7 @@
   },
   {
     "__type__": "cc.ClickEvent",
-    "target": {
-      "__id__": 2
-    },
+    "target": null,
     "component": "Spineboy",
     "handler": "jump",
     "customEventData": ""
@@ -1111,9 +1105,7 @@
   },
   {
     "__type__": "cc.ClickEvent",
-    "target": {
-      "__id__": 2
-    },
+    "target": null,
     "component": "spineboy",
     "handler": "jump",
     "customEventData": ""

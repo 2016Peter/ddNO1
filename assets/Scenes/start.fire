@@ -395,8 +395,10 @@
     "_fontSize": 40,
     "_lineHeight": 40,
     "_enableWrapText": true,
-    "_N$file": null,
-    "_isSystemFontUsed": true,
+    "_N$file": {
+      "__uuid__": "ddabf78b-dfe5-4f3c-99b3-f3d047039060"
+    },
+    "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_N$string": "开始游戏",
     "_N$horizontalAlign": 1,
