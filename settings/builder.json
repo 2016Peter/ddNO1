@@ -1,7 +1,7 @@
 {
   "appKey": "",
   "appSecret": "",
-  "encryptJs": true,
+  "encryptJs": false,
   "excludeScenes": [],
   "fb-instant-games": {},
   "includeAnySDK": false,
@@ -25,7 +25,7 @@
     "orientation": "portrait"
   },
   "renderMode": "0",
-  "startScene": "b98be320-84f2-4b89-b426-cd4842784486",
+  "startScene": "797facaf-2d3d-4473-9745-08a5b2686028",
   "title": "BS",
   "webOrientation": "landscape",
   "wechatgame": {
