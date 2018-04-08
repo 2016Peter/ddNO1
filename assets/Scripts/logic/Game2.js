@@ -8,6 +8,17 @@ cc.Class({
         bg2: cc.Node,
         jumpDuration: 0,
         jumpHeight: 0,
+        bullet1: {
+            default: null,
+            type: cc.Prefab
+        },
+
+        emery1: {
+            default: null,
+            type: cc.Prefab
+        },
+
+        player: cc.Node
 
         // zhiliao:cc.Node
 
@@ -18,6 +29,8 @@ cc.Class({
         this._boyAnimation = this.node.getChildByName("spineboy").getComponent(sp.Skeleton);
         this._boyAnimation.setAnimation(0, "run", true);
         this._boyAnimation.node.active = true;
+
+        this.schedule(this.createEnemy,2);
     },
 
     start() {
@@ -66,6 +79,17 @@ cc.Class({
         this._boyAnimation.node.active = true;
     },
 
+    createEnemy:function(){
+        var emery = cc.instantiate(this.emery1);
+        this.node.addChild(emery);
+        emery.setPosition(738,-102);
+
+        var bulletMove = cc.moveBy(1.5, cc.p(-1400, 0));
+        var removeBullet = cc.removeSelf(true);
+        var seq = cc.sequence(bulletMove, removeBullet);
+        emery.runAction(seq);
+    },
+
     zhiliao: function () {
         var zhiliaoBtn = this.node.getChildByName("spine").getChildByName("zhiliao").getComponent(sp.Skeleton);
         zhiliaoBtn.setAnimation(0, "zhiliao", false);
@@ -73,19 +97,19 @@ cc.Class({
         console.log("zhiliao");
     },
 
-    hudun:function(){
+    hudun: function () {
         var dunBtn = this.node.getChildByName("spineboy").getChildByName("dun").getComponent(sp.Skeleton);
         dunBtn.setAnimation(0, "dun", false);
         dunBtn.node.active = true;
     },
 
-    huo :function(){
+    huo: function () {
         var huoBtn = this.node.getChildByName("spine").getChildByName("huo").getComponent(sp.Skeleton);
         huoBtn.setAnimation(0, "huo", false);
         huoBtn.node.active = true;
     },
 
-    shui:function(){
+    shui: function () {
         var shuiBtn = this.node.getChildByName("spine").getChildByName("shui").getComponent(sp.Skeleton);
         shuiBtn.setAnimation(0, "shui", true);
         shuiBtn.node.active = true;
@@ -94,6 +118,20 @@ cc.Class({
     //     this._boyAnimation.setMix(anim1, anim2, this.mixTime);
     //     this._boyAnimation.setMix(anim2, anim1, this.mixTime);
     // }
+
+    shejiBullet: function () {
+        // 创建子弹
+        var bullet = cc.instantiate(this.bullet1);
+        this.node.addChild(bullet);
+        bullet.setPosition(this.player.x+50,this.player.y+50);
+        console.log(this.player);
+        //bullet.setPosition(-283, -117);
+        // 子弹移动
+        var bulletMove = cc.moveBy(1, cc.p(1000, 0));
+        var removeBullet = cc.removeSelf(true);
+        var seq = cc.sequence(bulletMove, removeBullet);
+        bullet.runAction(seq);
+    },
 
 
     update(dt) {

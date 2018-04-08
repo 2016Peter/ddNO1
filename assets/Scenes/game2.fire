@@ -84,16 +84,22 @@
       },
       {
         "__id__": 59
+      },
+      {
+        "__id__": 66
+      },
+      {
+        "__id__": 70
       }
     ],
     "_tag": -1,
     "_active": true,
     "_components": [
       {
-        "__id__": 66
+        "__id__": 72
       },
       {
-        "__id__": 67
+        "__id__": 73
       }
     ],
     "_prefab": null,
@@ -1387,7 +1393,7 @@
     "target": {
       "__id__": 2
     },
-    "component": "Spineboy",
+    "component": "Game2",
     "handler": "tiao",
     "customEventData": ""
   },
@@ -1623,7 +1629,7 @@
     "target": {
       "__id__": 2
     },
-    "component": "Spineboy",
+    "component": "Game2",
     "handler": "zhiliao",
     "customEventData": ""
   },
@@ -1859,7 +1865,7 @@
     "target": {
       "__id__": 2
     },
-    "component": "Spineboy",
+    "component": "Game2",
     "handler": "hudun",
     "customEventData": ""
   },
@@ -2474,7 +2480,7 @@
     },
     "_children": [],
     "_tag": -1,
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 63
@@ -2503,8 +2509,8 @@
     },
     "_rotationX": 0,
     "_rotationY": 0,
-    "_scaleX": 1,
-    "_scaleY": 1.1,
+    "_scaleX": 0.8,
+    "_scaleY": 1.2,
     "_position": {
       "__type__": "cc.Vec2",
       "x": 0,
@@ -2527,13 +2533,13 @@
     "_enabled": true,
     "_paused": false,
     "defaultSkin": "",
-    "defaultAnimation": "",
+    "defaultAnimation": "huo",
     "loop": true,
     "_premultipliedAlpha": true,
     "_N$skeletonData": {
       "__uuid__": "93b56880-41d3-4ff9-8194-293e10208564"
     },
-    "_N$timeScale": 1,
+    "_N$timeScale": 0.3,
     "_N$debugSlots": false,
     "_N$debugBones": false
   },
@@ -2610,6 +2616,185 @@
     "_N$debugBones": false
   },
   {
+    "__type__": "cc.Node",
+    "_name": "sheji",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 2
+    },
+    "_children": [],
+    "_tag": -1,
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 67
+      },
+      {
+        "__id__": 68
+      }
+    ],
+    "_prefab": null,
+    "_id": "3c/7mGNdJO1Y9T1ugGrm43",
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_cascadeOpacityEnabled": true,
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 80,
+      "height": 80
+    },
+    "_rotationX": 0,
+    "_rotationY": 0,
+    "_scaleX": 1,
+    "_scaleY": 1,
+    "_position": {
+      "__type__": "cc.Vec2",
+      "x": 344,
+      "y": -221
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_localZOrder": 0,
+    "_globalZOrder": 0,
+    "_opacityModifyRGB": false,
+    "groupIndex": 0
+  },
+  {
+    "__type__": "cc.Sprite",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 66
+    },
+    "_enabled": true,
+    "_spriteFrame": {
+      "__uuid__": "57f41935-6bc3-4721-a58e-452b6060d580"
+    },
+    "_type": 0,
+    "_sizeMode": 0,
+    "_fillType": 0,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": true,
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_atlas": null
+  },
+  {
+    "__type__": "cc.Button",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 66
+    },
+    "_enabled": true,
+    "transition": 3,
+    "pressedColor": {
+      "__type__": "cc.Color",
+      "r": 211,
+      "g": 211,
+      "b": 211,
+      "a": 255
+    },
+    "hoverColor": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "duration": 0.1,
+    "zoomScale": 1.2,
+    "clickEvents": [
+      {
+        "__id__": 69
+      }
+    ],
+    "_N$interactable": true,
+    "_N$enableAutoGrayEffect": false,
+    "_N$normalColor": {
+      "__type__": "cc.Color",
+      "r": 214,
+      "g": 214,
+      "b": 214,
+      "a": 255
+    },
+    "_N$disabledColor": {
+      "__type__": "cc.Color",
+      "r": 124,
+      "g": 124,
+      "b": 124,
+      "a": 255
+    },
+    "_N$normalSprite": null,
+    "_N$pressedSprite": null,
+    "pressedSprite": null,
+    "_N$hoverSprite": null,
+    "hoverSprite": null,
+    "_N$disabledSprite": null,
+    "_N$target": {
+      "__id__": 66
+    }
+  },
+  {
+    "__type__": "cc.ClickEvent",
+    "target": {
+      "__id__": 2
+    },
+    "component": "Game2",
+    "handler": "shejiBullet",
+    "customEventData": ""
+  },
+  {
+    "__type__": "cc.Node",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 2
+    },
+    "_id": "74QwQVyR9HXIqSIK2Pgab8",
+    "_prefab": {
+      "__id__": 71
+    },
+    "_name": "emery1",
+    "_active": true,
+    "_position": {
+      "__type__": "cc.Vec2",
+      "x": 738,
+      "y": -102
+    },
+    "_rotationX": 0,
+    "_rotationY": 0,
+    "_localZOrder": 0,
+    "_globalZOrder": 0
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 70
+    },
+    "asset": {
+      "__uuid__": "187697ea-f531-4996-b010-bcb930c929f1"
+    },
+    "fileId": "c1ejZ75LZNWIQj7eupVsHE",
+    "sync": true
+  },
+  {
     "__type__": "cc.Canvas",
     "_name": "",
     "_objFlags": 0,
@@ -2642,6 +2827,15 @@
       "__id__": 11
     },
     "jumpDuration": 0.28,
-    "jumpHeight": 200
+    "jumpHeight": 200,
+    "bullet1": {
+      "__uuid__": "5d917d0c-2c61-4d84-98b6-391b0614b80c"
+    },
+    "emery1": {
+      "__uuid__": "187697ea-f531-4996-b010-bcb930c929f1"
+    },
+    "player": {
+      "__id__": 19
+    }
   }
 ]
