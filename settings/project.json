@@ -8,7 +8,12 @@
   },
   "collision-matrix": [
     [
-      true
+      true,
+      false
+    ],
+    [
+      false,
+      false
     ]
   ],
   "design-resolution-height": 720,
@@ -17,14 +22,15 @@
   "fit-height": false,
   "fit-width": true,
   "group-list": [
-    "default"
+    "player",
+    "emeny"
   ],
   "simulator-orientation": true,
   "simulator-resolution": {
     "height": 720,
     "width": 1280
   },
-  "start-scene": "2288f6e1-dc81-4372-bc80-962de3753ec8",
+  "start-scene": "797facaf-2d3d-4473-9745-08a5b2686028",
   "use-customize-simulator": true,
   "use-project-simulator-setting": false
 }

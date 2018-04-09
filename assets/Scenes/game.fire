@@ -108,8 +108,8 @@
     "_scaleY": 1,
     "_position": {
       "__type__": "cc.Vec2",
-      "x": 360,
-      "y": 640
+      "x": 640,
+      "y": 360
     },
     "_skewX": 0,
     "_skewY": 0,
@@ -1149,6 +1149,11 @@
     },
     "bg2": {
       "__id__": 7
-    }
+    },
+    "jumpDuration": 0,
+    "jumpHeight": 0,
+    "bullet1": null,
+    "emery1": null,
+    "player": null
   }
 ]
