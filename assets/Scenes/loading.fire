@@ -67,6 +67,9 @@
     "_components": [
       {
         "__id__": 10
+      },
+      {
+        "__id__": 11
       }
     ],
     "_prefab": null,
@@ -278,7 +281,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 0,
+      "width": 1850,
       "height": 134
     },
     "_rotationX": 0,
@@ -361,12 +364,12 @@
       "__id__": 5
     },
     "_enabled": true,
-    "_N$totalLength": 1481.6000000000001,
+    "_N$totalLength": 1850,
     "_N$barSprite": {
       "__id__": 7
     },
     "_N$mode": 0,
-    "_N$progress": 0,
+    "_N$progress": 1,
     "_N$reverse": true
   },
   {
@@ -384,5 +387,17 @@
     },
     "_fitWidth": true,
     "_fitHeight": false
+  },
+  {
+    "__type__": "02921fFptxJUKl6OLljPlog",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 2
+    },
+    "_enabled": true,
+    "loadBar": {
+      "__id__": 9
+    }
   }
 ]

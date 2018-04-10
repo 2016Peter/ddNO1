@@ -1,0 +1,257 @@
+
+zhujue_2.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+texiao/SD/M_00
+  rotate: false
+  xy: 389, 1565
+  size: 4, 4
+  orig: 720, 658
+  offset: 40, 317
+  index: -1
+texiao/SD/M_01
+  rotate: false
+  xy: 2, 1382
+  size: 385, 655
+  orig: 720, 658
+  offset: 118, 3
+  index: -1
+texiao/SD/M_04
+  rotate: false
+  xy: 1602, 58
+  size: 408, 541
+  orig: 720, 658
+  offset: 88, 9
+  index: -1
+texiao/SD/M_06
+  rotate: false
+  xy: 1084, 137
+  size: 516, 462
+  orig: 720, 658
+  offset: 64, 6
+  index: -1
+texiao/SD/M_12
+  rotate: true
+  xy: 520, 984
+  size: 585, 465
+  orig: 720, 658
+  offset: 0, 1
+  index: -1
+texiao/SD/M_13
+  rotate: true
+  xy: 1084, 601
+  size: 502, 463
+  orig: 720, 658
+  offset: 80, 2
+  index: -1
+texiao/SD/M_14
+  rotate: true
+  xy: 2, 394
+  size: 516, 466
+  orig: 720, 658
+  offset: 84, 2
+  index: -1
+texiao/SD/M_15
+  rotate: false
+  xy: 976, 1571
+  size: 562, 466
+  orig: 720, 658
+  offset: 68, 1
+  index: -1
+texiao/SD/M_16
+  rotate: false
+  xy: 389, 1571
+  size: 585, 466
+  orig: 720, 658
+  offset: 40, 0
+  index: -1
+texiao/SD/M_17
+  rotate: false
+  xy: 1540, 1573
+  size: 502, 464
+  orig: 720, 658
+  offset: 120, 1
+  index: -1
+texiao/SD/M_18
+  rotate: false
+  xy: 2, 912
+  size: 516, 468
+  orig: 720, 658
+  offset: 124, 0
+  index: -1
+texiao/SD/M_19
+  rotate: false
+  xy: 520, 516
+  size: 562, 466
+  orig: 720, 658
+  offset: 108, 1
+  index: -1
+texiao/SD/M_20
+  rotate: false
+  xy: 987, 1105
+  size: 585, 464
+  orig: 720, 658
+  offset: 80, 2
+  index: -1
+texiao/SD/M_21
+  rotate: true
+  xy: 1549, 601
+  size: 502, 459
+  orig: 720, 658
+  offset: 160, 6
+  index: -1
+texiao/SD/M_24
+  rotate: false
+  xy: 470, 54
+  size: 584, 460
+  orig: 720, 658
+  offset: 121, 7
+  index: -1
+texiao/lang/L_00
+  rotate: false
+  xy: 2, 205
+  size: 203, 187
+  orig: 205, 206
+  offset: 0, 19
+  index: -1
+texiao/lang/L_01
+  rotate: true
+  xy: 207, 198
+  size: 194, 177
+  orig: 205, 206
+  offset: 4, 16
+  index: -1
+texiao/lang/L_02
+  rotate: false
+  xy: 1574, 1406
+  size: 201, 165
+  orig: 205, 206
+  offset: 3, 26
+  index: -1
+texiao/lang/L_03
+  rotate: true
+  xy: 1777, 1376
+  size: 195, 168
+  orig: 205, 206
+  offset: 4, 26
+  index: -1
+texiao/lang/L_04
+  rotate: true
+  xy: 2, 2
+  size: 201, 167
+  orig: 205, 206
+  offset: 0, 26
+  index: -1
+texiao/lang/L_05
+  rotate: false
+  xy: 171, 23
+  size: 195, 173
+  orig: 205, 206
+  offset: 6, 16
+  index: -1
+
+zhujue_22.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+texiao/SD/M_02
+  rotate: false
+  xy: 1564, 413
+  size: 285, 552
+  orig: 720, 658
+  offset: 144, 2
+  index: -1
+texiao/SD/M_03
+  rotate: false
+  xy: 1070, 2
+  size: 279, 542
+  orig: 720, 658
+  offset: 157, 10
+  index: -1
+texiao/SD/M_05
+  rotate: false
+  xy: 566, 87
+  size: 502, 457
+  orig: 720, 658
+  offset: 70, 8
+  index: -1
+texiao/SD/M_07
+  rotate: false
+  xy: 2, 552
+  size: 562, 459
+  orig: 720, 658
+  offset: 38, 8
+  index: -1
+texiao/SD/M_08
+  rotate: false
+  xy: 2, 1475
+  size: 584, 458
+  orig: 720, 658
+  offset: 1, 9
+  index: -1
+texiao/SD/M_09
+  rotate: true
+  xy: 1588, 967
+  size: 502, 458
+  orig: 720, 658
+  offset: 60, 7
+  index: -1
+texiao/SD/M_10
+  rotate: false
+  xy: 588, 1471
+  size: 516, 462
+  orig: 720, 658
+  offset: 44, 6
+  index: -1
+texiao/SD/M_11
+  rotate: false
+  xy: 2, 1013
+  size: 562, 460
+  orig: 720, 658
+  offset: 28, 7
+  index: -1
+texiao/SD/M_22
+  rotate: false
+  xy: 1106, 1471
+  size: 516, 462
+  orig: 720, 658
+  offset: 164, 6
+  index: -1
+texiao/SD/M_23
+  rotate: false
+  xy: 2, 91
+  size: 562, 459
+  orig: 720, 658
+  offset: 148, 8
+  index: -1
+texiao/SD/M_25
+  rotate: false
+  xy: 1084, 1010
+  size: 502, 459
+  orig: 720, 658
+  offset: 200, 6
+  index: -1
+texiao/SD/M_26
+  rotate: false
+  xy: 566, 1007
+  size: 516, 462
+  orig: 720, 658
+  offset: 204, 6
+  index: -1
+texiao/SD/M_27
+  rotate: false
+  xy: 566, 546
+  size: 509, 459
+  orig: 720, 658
+  offset: 208, 7
+  index: -1
+texiao/SD/M_28
+  rotate: false
+  xy: 1084, 556
+  size: 478, 452
+  orig: 720, 658
+  offset: 225, 9
+  index: -1

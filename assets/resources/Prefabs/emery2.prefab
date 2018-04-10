@@ -10,7 +10,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "emery1",
+    "_name": "emery2",
     "_objFlags": 0,
     "_parent": null,
     "_children": [
@@ -51,17 +51,17 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 160,
-      "height": 220
+      "width": 270,
+      "height": 283
     },
     "_rotationX": 0,
     "_rotationY": 0,
-    "_scaleX": 0.8,
-    "_scaleY": 0.8,
+    "_scaleX": 0.5,
+    "_scaleY": 0.5,
     "_position": {
       "__type__": "cc.Vec2",
-      "x": 738,
-      "y": -90
+      "x": 0,
+      "y": -96
     },
     "_skewX": 0,
     "_skewY": 0,
@@ -117,12 +117,12 @@
     },
     "_rotationX": 0,
     "_rotationY": 0,
-    "_scaleX": 1,
-    "_scaleY": 1,
+    "_scaleX": 2,
+    "_scaleY": 2,
     "_position": {
       "__type__": "cc.Vec2",
-      "x": -2.6,
-      "y": 124.1
+      "x": -5,
+      "y": 188
     },
     "_skewX": 0,
     "_skewY": 0,
@@ -217,9 +217,9 @@
       "__id__": 1
     },
     "asset": {
-      "__uuid__": "187697ea-f531-4996-b010-bcb930c929f1"
+      "__uuid__": "bebfc2e4-2071-463e-a5e5-7b0bb129ada9"
     },
-    "fileId": "aed+S0mINJw70wz1vGc7ly",
+    "fileId": "2e18GseudBK4G2NZjidtOI",
     "sync": false
   },
   {
@@ -270,9 +270,9 @@
       "__id__": 1
     },
     "asset": {
-      "__uuid__": "187697ea-f531-4996-b010-bcb930c929f1"
+      "__uuid__": "bebfc2e4-2071-463e-a5e5-7b0bb129ada9"
     },
-    "fileId": "e4s73ubxRPn4G5zgRVTCv0",
+    "fileId": "5508Fl5v1McY6rPn8TLtcl",
     "sync": false
   },
   {
@@ -284,7 +284,7 @@
     },
     "_enabled": true,
     "_spriteFrame": {
-      "__uuid__": "8e127036-b5e0-4b2d-bc07-b8e1beca5f22"
+      "__uuid__": "7e52c35b-66af-4fb2-a9c6-eb86fd6e0d94"
     },
     "_type": 0,
     "_sizeMode": 1,
@@ -299,7 +299,9 @@
     "_isTrimmedMode": true,
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_atlas": null
+    "_atlas": {
+      "__uuid__": "bcfe78cd-8c00-4e74-a180-eb81e7270829"
+    }
   },
   {
     "__type__": "413dbFJNrFNgoAH5vxalSCz",
@@ -324,13 +326,13 @@
     "tag": 0,
     "_offset": {
       "__type__": "cc.Vec2",
-      "x": -8.5,
-      "y": 0.5
+      "x": -12.7,
+      "y": -1.7
     },
     "_size": {
       "__type__": "cc.Size",
-      "width": 92.3,
-      "height": 221.1
+      "width": 173.4,
+      "height": 279.6
     }
   },
   {
@@ -339,9 +341,9 @@
       "__id__": 1
     },
     "asset": {
-      "__uuid__": "187697ea-f531-4996-b010-bcb930c929f1"
+      "__uuid__": "bebfc2e4-2071-463e-a5e5-7b0bb129ada9"
     },
-    "fileId": "c1ejZ75LZNWIQj7eupVsHE",
+    "fileId": "c6vDAa0OhIdYkd/2ljE7DV",
     "sync": false
   }
 ]

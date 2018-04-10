@@ -18,6 +18,16 @@ cc.Class({
             type: cc.Prefab
         },
 
+        emery2: {
+            default: null,
+            type: cc.Prefab
+        },
+
+        emery3: {
+            default: null,
+            type: cc.Prefab
+        },
+
         player: cc.Node
 
         // zhiliao:cc.Node
@@ -30,14 +40,14 @@ cc.Class({
         this._boyAnimation.setAnimation(0, "run", true);
         this._boyAnimation.node.active = true;
 
-        this.schedule(this.createEnemy,2);
+        this.schedule(this.createEnemy, 2);
     },
 
     start() {
 
     },
 
-    jump: function () {
+    jump: function() {
         var oldAnim = this._boyAnimation.animation;
         if (oldAnim == "jump") {
             return;
@@ -48,7 +58,7 @@ cc.Class({
         }
     },
 
-    tiao: function () {
+    tiao: function() {
         var oldAnim = this._boyAnimation.animation;
         var boy = this.node.getChildByName("spineboy");
 
@@ -69,47 +79,62 @@ cc.Class({
         }
     },
 
-    run: function () {
+    run: function() {
         this._boyAnimation.setAnimation(0, "run", true);
         this._boyAnimation.node.active = true;
     },
 
-    paobu: function () {
+    paobu: function() {
         this._boyAnimation.setAnimation(0, "paobu", true);
         this._boyAnimation.node.active = true;
     },
 
-    createEnemy:function(){
-        var emery = cc.instantiate(this.emery1);
-        this.node.addChild(emery);
-        emery.setPosition(738,-102);
+    createEnemy: function() {
 
-        var bulletMove = cc.moveBy(1.5, cc.p(-1400, 0));
+        // 随机从三种敌人预制中选择一种
+        var randomNum = Math.ceil(Math.random() * 3);
+        var enemyPrefab = null;
+        switch (randomNum) {
+            case 1:
+                enemyPrefab = this.emery1;
+                break;
+            case 2:
+                enemyPrefab = this.emery2;
+                break;
+            case 3:
+                enemyPrefab = this.emery3;
+                break;
+        }
+        var emery = cc.instantiate(enemyPrefab);
+        this.node.addChild(emery);
+        emery.setPosition(738, -102);
+
+        var bulletMove = cc.moveBy(2, cc.p(-1400, 0));
         var removeBullet = cc.removeSelf(true);
         var seq = cc.sequence(bulletMove, removeBullet);
         emery.runAction(seq);
     },
 
-    zhiliao: function () {
+    zhiliao: function() {
         var zhiliaoBtn = this.node.getChildByName("spine").getChildByName("zhiliao").getComponent(sp.Skeleton);
         zhiliaoBtn.setAnimation(0, "zhiliao", false);
         zhiliaoBtn.node.active = true;
         console.log("zhiliao");
     },
 
-    hudun: function () {
+    hudun: function() {
         var dunBtn = this.node.getChildByName("spineboy").getChildByName("dun").getComponent(sp.Skeleton);
         dunBtn.setAnimation(0, "dun", false);
         dunBtn.node.active = true;
     },
 
-    huo: function () {
+    huo: function() {
         var huoBtn = this.node.getChildByName("spine").getChildByName("huo").getComponent(sp.Skeleton);
         huoBtn.setAnimation(0, "huo", false);
         huoBtn.node.active = true;
     },
 
-    shui: function () {
+    shui: function() {
         var shuiBtn = this.node.getChildByName("spine").getChildByName("shui").getComponent(sp.Skeleton);
         shuiBtn.setAnimation(0, "shui", true);
         shuiBtn.node.active = true;
@@ -119,12 +144,11 @@ cc.Class({
     //     this._boyAnimation.setMix(anim2, anim1, this.mixTime);
     // }
 
-    shejiBullet: function () {
+    shejiBullet: function() {
         // 创建子弹
         var bullet = cc.instantiate(this.bullet1);
         this.node.addChild(bullet);
-        bullet.setPosition(this.player.x+50,this.player.y+50);
-        console.log(this.player);
+        bullet.setPosition(this.player.x + 50, this.player.y + 50);
         //bullet.setPosition(-283, -117);
         // 子弹移动
         var bulletMove = cc.moveBy(1, cc.p(1000, 0));

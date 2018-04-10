@@ -8,10 +8,24 @@
   },
   "collision-matrix": [
     [
+      false,
       true,
+      true
+    ],
+    [
+      true,
+      false,
+      null,
+      true
+    ],
+    [
+      true,
+      false,
       false
     ],
     [
+      false,
+      true,
       false,
       false
     ]
@@ -23,14 +37,16 @@
   "fit-width": true,
   "group-list": [
     "player",
-    "emeny"
+    "emeny",
+    "dici",
+    "bullte"
   ],
   "simulator-orientation": true,
   "simulator-resolution": {
     "height": 720,
     "width": 1280
   },
-  "start-scene": "797facaf-2d3d-4473-9745-08a5b2686028",
+  "start-scene": "899f3a8c-3ec6-4685-85e3-c3bcf7373c95",
   "use-customize-simulator": true,
   "use-project-simulator-setting": false
 }
