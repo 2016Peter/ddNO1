@@ -41,6 +41,9 @@ cc.Class({
         this._boyAnimation.node.active = true;
 
         this.schedule(this.createEnemy, 2);
+
+        var manager = cc.director.getCollisionManager();
+        manager.enabled = true;
     },
 
     start() {
